@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TODO: For some reason this removes the color on keypress */
+/* 
+.react-simple-keyboard.simple-keyboard {
+  background-color: transparent;
+}
+
+.react-simple-keyboard.simple-keyboard .hg-button {
+  background-color: #ECECEC;
+} */
+
+.simple-keyboard .hg-button.btn-green {
+  background-color: #22C55E;
+  color: white;
+}
+
+.simple-keyboard .hg-button.btn-yellow {
+  background-color: #FACC15;
+  color: white;
+}
+
+.simple-keyboard .hg-button.btn-gray {
+  background-color: #6B7280;
+  color: white;
+}
